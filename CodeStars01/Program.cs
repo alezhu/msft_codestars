@@ -50,12 +50,12 @@ namespace CodeStars01
 
                     if (big)
                     {
-                        bresult /= 6;
+                        bresult /= 360;
                         Console.WriteLine(bresult.ToString());
                     }
                     else
                     {
-                        iresult /= 6;
+                        iresult /= 360;
                         Console.WriteLine(iresult.ToString());
                     }
                     //Console.ReadKey();
