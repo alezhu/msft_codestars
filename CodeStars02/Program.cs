@@ -51,6 +51,10 @@ namespace CodeStar02
                             text.Add(sb.ToString());
                             sb.Clear();
                         }
+                        else if (state == State.MakedWord)
+                        {
+                            text.Add("");
+                        }
                     }
                     //Вашу мать! Зачем в задании писать, что знаки препинания разделют слова, если это не так! 
                     //if (count > 0 && re.IsMatch(word))
