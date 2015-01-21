@@ -69,6 +69,7 @@ namespace CodeStar02
                 }
 
             }
+            file.Close();
             foreach (var item in text)
             {
                 Console.Write(item);
